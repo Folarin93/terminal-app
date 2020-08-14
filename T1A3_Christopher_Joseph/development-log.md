@@ -1,0 +1,7 @@
+# Status Updates
+
+## Application Idea Change
+The initial idea was to create a calorie counting app, however I couldn’t really see the idea and it had initially come from more not necessarily having a stronger idea of what to create. I then eventually tossed between a pizza making app and trivia. I liked the idea of a trivia app especially when I saw how fun and informative it could be and enjoyed the simplicity of the idea. It was also a good opportunity to play around with creating a Question class which can take its own arguments of a question prompt, options and answer. I found overthinking the idea was a big challenge, perhaps now only starting to realise the capabilities of python and the plethora of ways it can be creatively used. 
+ 
+ ## Random Question Generator / User No. of Questions Input
+I initially set the questions to 12 but instead wanted the User to have a bit more control of how long they wanted the game to be. I decided to update the application to work based on the number of questions inputted by the User but capped this at 15 to avoid numbers exceeding the questions available. I also ensured the questions generated were also to be random and not to be asked again during the course of that game to avoid repetition and predictability. I used a random.choice() method and .remove() to ensure it was generated and then taken off the list during the while loop of questions.
